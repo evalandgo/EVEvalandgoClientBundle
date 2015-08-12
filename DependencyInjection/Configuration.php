@@ -20,9 +20,19 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('ev_evalandgo_client');
 
-        // Here you should define the parameters that are allowed to
-        // configure your bundle. See the documentation linked above for
-        // more information on that topic.
+        $rootNode
+            ->addDefaultsIfNotSet()
+            ->children()
+                ->arrayNode('users')
+                        ->prototype('array')
+                            ->children()
+                                ->scalarNode('client_id')->end()
+                                ->scalarNode('client_secret')->end()
+                            ->end()
+                        ->end()
+                ->end()
+            ->end()
+        ;
 
         return $treeBuilder;
     }
