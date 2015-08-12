@@ -1,0 +1,27 @@
+{
+  "name": "ev/evalandgo-client-bundle",
+  "type": "symfony-bundle",
+  "description": "Client API Bundle for Evalandgo",
+  "keywords": ["client", "api", "evalandgo", "bundle"],
+  "homepage": "http://github.com/evalandgo/EVEvalandgoClientBundle",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Evalandgo Team",
+      "homepage": "http://evalandgo.com"
+    }
+  ],
+
+  "require": {
+    "php":                          ">=5.4.0",
+    "symfony/framework-bundle":     "~2.0",
+    "evalandgo/evalandgo-api-client": "2.0.*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "EV\\EvalandgoClientBundle\\": ""
+    }
+  }
+}
