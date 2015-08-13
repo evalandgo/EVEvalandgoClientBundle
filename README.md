@@ -11,6 +11,7 @@ In composer.json file, add :
         "ev/evalandgo-client-bundle": "2.0.*"
     }
 }
+```
 
 In app/AppKernel.php file, add :
 ```php
