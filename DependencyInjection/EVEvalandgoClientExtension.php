@@ -27,8 +27,6 @@ class EVEvalandgoClientExtension extends Extension
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
 
-        var_dump($config['users']);
-
         foreach($config['users'] as $userName => $userLogin) {
             $container->setDefinition('ev_evalandgo_client.'.$userName.'.client', new Definition(
                 'ApiClient\Client',
