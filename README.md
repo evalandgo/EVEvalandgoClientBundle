@@ -1,7 +1,7 @@
 # EVEvalandgoClientBundle
 Client API Bundle for Evalandgo.
 
-Generally this bundle is based on [EvalandgoApiClient component](https://github.com/evalandgo/EvalandgoApiClient).
+Generally this bundle is based on [EvalandgoApiClient component](https://github.com/evalandgo/EvalandgoApiClient/tree/2.0).
 
 ## Installation
 In composer.json file, add :
