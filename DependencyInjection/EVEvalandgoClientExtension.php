@@ -29,7 +29,7 @@ class EVEvalandgoClientExtension extends Extension
 
         foreach($config['users'] as $userName => $userLogin) {
             $container->setDefinition('ev_evalandgo_client.'.$userName.'.client', new Definition(
-                'ApiClient\Client',
+                'EvalandgoApiClient\Client',
                 array(
                     $userLogin['client_id'],
                     $userLogin['client_secret'],

@@ -2,7 +2,7 @@
 
 namespace EV\EvalandgoClientBundle\OAuth2\Storage;
 
-use ApiClient\OAuth2\Storage\StorageInterface;
+use EvalandgoApiClient\OAuth2\Storage\StorageInterface;
 use Symfony\Component\HttpFoundation\Session\Session;
 
 class SymfonySessionStorage implements StorageInterface
