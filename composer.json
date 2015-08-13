@@ -16,7 +16,7 @@
   "require": {
     "php":                          ">=5.4.0",
     "symfony/framework-bundle":     "~2.0",
-    "evalandgo/evalandgo-api-client": "2.0.*"
+    "evalandgo/evalandgo-api-client": "2.1.*"
   },
 
   "autoload": {

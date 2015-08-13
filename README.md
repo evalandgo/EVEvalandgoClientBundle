@@ -8,7 +8,7 @@ In composer.json file, add :
 ```json
 {
     "require": {
-        "ev/evalandgo-client-bundle": "2.0.*"
+        "ev/evalandgo-client-bundle": "2.1.*"
     }
 }
 ```
